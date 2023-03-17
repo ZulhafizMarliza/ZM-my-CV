@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  background-color: #2e8b57;
-  color: #fff;
+  background-color: #b0e9ff;
+  color: #000000;
   padding: 20px;
 }
 
@@ -38,6 +38,7 @@ section ul {
   list-style: none;
   padding-left: 0;
   margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 section li {
@@ -48,4 +49,13 @@ section li {
 section li:hover {
   background-color: #f5f5f5;
   cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  width: 50%;
+  padding: 20px;
 }
